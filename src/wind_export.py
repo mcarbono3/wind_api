@@ -9,8 +9,8 @@ from datetime import datetime
 import json
 import csv
 from src.wind_analytics import WindAnalytics
-from wind_ai_diagnosis import WindPotentialAI
-from wind_visualization import WindVisualization
+from src.wind_ai_diagnosis import WindPotentialAI
+from src.wind_visualization import WindVisualization
 import warnings
 warnings.filterwarnings('ignore')
 
