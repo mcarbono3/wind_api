@@ -13,11 +13,11 @@ from datetime import datetime
 import traceback
 
 # Importar módulos desarrollados
-from era5_data import ERA5DataAccess
-from wind_analytics import WindAnalytics, quick_wind_analysis
-from wind_ai_diagnosis import WindPotentialAI, quick_ai_diagnosis
-from wind_visualization import WindVisualization, quick_wind_charts
-from wind_export import WindDataExporter, quick_export_analysis
+from src.era5_data import ERA5DataAccess
+from src.wind_analytics import WindAnalytics, quick_wind_analysis
+from src.wind_ai_diagnosis import WindPotentialAI, quick_ai_diagnosis
+from src.wind_visualization import WindVisualization, quick_wind_charts
+from src.wind_export import WindDataExporter, quick_export_analysis
 
 app = Flask(__name__)
 CORS(app)  # Permitir CORS para todas las rutas
