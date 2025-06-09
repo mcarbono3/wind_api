@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 import json
 import csv
-from wind_analytics import WindAnalytics
+from src.wind_analytics import WindAnalytics
 from wind_ai_diagnosis import WindPotentialAI
 from wind_visualization import WindVisualization
 import warnings
